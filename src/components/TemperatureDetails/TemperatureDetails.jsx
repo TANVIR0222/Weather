@@ -1,4 +1,3 @@
-import { FaCircle } from "react-icons/fa";
 import {  UilTemperature, UilTear, UilWind, UilSun, UilSunset } from '@iconscout/react-unicons'
 // UilArrowUp, UilArrowDown,
 const TemperatureDetails = () => {
@@ -8,7 +7,7 @@ const TemperatureDetails = () => {
                 <h1>Cloudy or whatever</h1>
             </div>
             <div className="flex flex-row items-center justify-between py-3 text-white">
-                <FaCircle className="text-5xl text-orange-500 w-20"></FaCircle>
+                <img className=" w-20" src="http://openweathermap.org/img/wn/01d@2x.png" alt="" />
                 <p className="text-5xl">34°</p>
                 {/* {1} */}
                 <div className="flex flex-col space-y-2">
